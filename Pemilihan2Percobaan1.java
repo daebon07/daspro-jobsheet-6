@@ -8,9 +8,14 @@ public class Pemilihan2Percobaan1 {
         System.out.print("masukan tahun");
         tahun = input20.nextInt();
 
+       
         if (( tahun % 4) == 0){
-            if (( tahun % 100) != 0)
+            if (( tahun % 100) != 0) {
             System.out.println("tahun kabisat");
+            }
+            else {
+                System.out.println(" bukan tahun kabisat"); 
+            }
         }
         else{
             System.out.println("bukan tahun kabisat");
